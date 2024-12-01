@@ -22,7 +22,7 @@ const Product = ({product}) => {
         dispatch(add(product));
         toast.success("Item added to cart");
       }else{
-        toast.error("Please log in or sign up to add items to your cart.")
+        toast.error("Please log in or sign up to add items to your cart")
         navigate("/signup");
       }
   }
