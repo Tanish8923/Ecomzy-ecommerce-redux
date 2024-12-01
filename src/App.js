@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App bg-slate-900">
+    <div className="App bg-slate-900 overflow-x-hidden">
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>

@@ -34,7 +34,7 @@ const LogInForm = ({setIsLoggedIn}) => {
     }
 
   return (
-    <div className='h-screen w-screen bg-slate-700 flex justify-center items-center '>
+    <div className='h-screen w-screen bg-slate-700 flex justify-center items-center'>
       <form onSubmit={submitHandler} className="flex flex-col gap-y-4 mt-6 h-auto w-auto outline p-10 rounded-md bg-white opacity-80">
       <label className="w-full">
         <p className="text-[0.875rem] font-medium text-slate-900 mb-1 leading-[1.375rem]">Email Address <sup className="text-pink-600 ">*</sup></p>

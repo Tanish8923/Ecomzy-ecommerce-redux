@@ -8,7 +8,7 @@ const Home = () => {
 
   const API_URL =  process.env.REACT_APP_API_URL;
 
-  const [loader , setLoader] = useState();
+  const [loader , setLoader] = useState(true);
   const [products , setproducts] = useState([]);
 
   async function fetchdata(){
